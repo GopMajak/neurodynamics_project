@@ -1,0 +1,32 @@
+# Data: HCP data (raw + processed), ~110GB, restricted redistribution -- never track
+data/
+
+# Reference material: third-party code + empirical datasets + papers, ~14GB.
+# Not authored by us; maintained separately on the compute server, not needed
+# on a laptop that only edits code and uploads to the server to run.
+Reference Code Material/
+
+# Recovered prior-session project: keep the small authored .m scripts (functions,
+# simulation, analysis, etc. -- tracked by the extension rules below), but not the
+# heavy regenerable outputs or copyrighted articles.
+Original Project Code/brain_connectome_harmonics/results/
+Original Project Code/brain_connectome_harmonics/Articles/
+Original Project Code/brain_connectome_harmonics/.claude/
+
+# Papers / reference PDFs
+Papers/
+
+# Zip-extraction junk
+__MACOSX/
+
+# Belt-and-suspenders: never track heavy/binary data files anywhere, even if
+# they show up in a folder not covered above
+*.mat
+*.nii
+*.pdf
+
+# OS / editor cruft
+.DS_Store
+Thumbs.db
+*.asv
+*.m~

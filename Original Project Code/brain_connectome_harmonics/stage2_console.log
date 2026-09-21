@@ -1,0 +1,16 @@
+
+	Trial License -- for use to evaluate programs for possible purchase as an end-user only.
+
+Loaded Glasser360 parcellation: 180 parcels
+EDR fit (Glasser360, validation only): A = 0.5267, lambda = 0.1242 /mm
+Long-range exceptions found: 253 parcel pairs (out of 16110)
+
+=== STAGE 2: full vertex-resolution EDR+LR derivation ===
+Computed 29696x29696 vertex distance matrix in 4.9 s
+Binned connectivity by distance (400 bins) in 164.4 s
+EDR fit (full resolution): A = 0.0659, lambda = 0.1617 /mm
+Identified 6356624 long-range exceptions in 7.1 s
+Saved full-resolution EDR+LR connectome to results/EDR_LR_connectome_full_resolution.mat
+
+Computing EDR+LR eigenmodes (dense eig on 29696x29696)...
+ERROR: MATLAB error Exit Status: 0x40010004
